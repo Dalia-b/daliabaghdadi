@@ -53,7 +53,7 @@ headlines: #AB5955 , #834845 , #74201B*/
   padding: 1.2rem 2.4rem;
   border-radius: 8px;
   color: #fff;
-  background-color: #ffcb74;
+  background-color: #fbc464;
 }
 
 .main-nav-link.nav-cta:hover,
@@ -111,6 +111,29 @@ headlines: #AB5955 , #834845 , #74201B*/
   background-color: #2f2f2f;
   height: 100vh;
   position: relative;
+}
+
+.section-table {
+  background-color: #2f2f2f;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+}
+
+.table {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 9rem 3.2rem 12rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.content a {
+  text-decoration: none;
 }
 
 .hero {
@@ -321,10 +344,15 @@ headlines: #AB5955 , #834845 , #74201B*/
 }
 
 .edu-title {
+  display: block;
   font-size: 3rem;
   font-weight: 600;
   padding-bottom: 1.5rem;
   /* padding-bottom: 1rem; */
+}
+
+.edu-title:hover {
+  color: #ffcb74;
 }
 
 .edu-name {
@@ -649,7 +677,7 @@ headlines: #AB5955 , #834845 , #74201B*/
 /**************************/
 
 .footer {
-  padding: 6rem 0 0 0;
+  padding: 6rem 0;
   border-top: 1px solid #eee;
 }
 
@@ -666,13 +694,15 @@ headlines: #AB5955 , #834845 , #74201B*/
 
 .footer-logo {
   display: block;
+  padding-right: 0.5rem;
 
   width: 3rem;
 }
+
 .footer-name {
   display: flex;
-  gap: 1rem;
-  font-size: 2.2rem;
+  gap: space-between;
+  font-size: 2.6rem;
   font-weight: 500;
   align-items: center;
 
@@ -682,7 +712,8 @@ headlines: #AB5955 , #834845 , #74201B*/
 .social-links {
   list-style: none;
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
+  padding-bottom: 2rem;
 }
 
 .social-links:last-child {
@@ -691,15 +722,19 @@ headlines: #AB5955 , #834845 , #74201B*/
 .social-icon {
   height: 3rem;
   width: 3rem;
-  fill: rgba(85, 85, 85, 0.466);
+  color: #333;
+}
+
+.social-icon:hover {
+  color: #ffcb74;
 }
 
 .copyright {
   font-size: 1.4rem;
   line-height: 2rem;
   color: #767676;
-  margin-top: 1.2rem;
-  margin-bottom: 2.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1.4rem;
 }
 
 .footer-heading {
@@ -725,17 +760,12 @@ headlines: #AB5955 , #834845 , #74201B*/
   gap: 2.4rem;
 }
 
-.footer-link:link,
-.footer-link:visited {
-  text-decoration: none;
-  font-size: 1.6rem;
-  color: #767676;
-  transition: all 0.3s;
-}
-
-.footer-link:hover,
-.footer-link:active {
-  color: #555;
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 12rem;
 }
 
 /**************************/
@@ -744,6 +774,30 @@ headlines: #AB5955 , #834845 , #74201B*/
 
 .section-portfolio-arch {
   margin: 9rem auto;
+}
+
+.table-title {
+  font-size: 5rem;
+  color: #ffcb74;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+.table-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6rem;
+  justify-content: center;
+}
+
+.table-number {
+  font-size: 10rem;
+  color: #fdfdfd;
+}
+
+#one {
+  padding-right: 1.5rem;
 }
 
 .portfolio-arch {
@@ -755,7 +809,8 @@ headlines: #AB5955 , #834845 , #74201B*/
   font-size: 5rem;
   color: #ffcb74;
   font-weight: 500;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+  margin-top: 8rem;
 }
 .arch-img {
   max-width: 100rem;
@@ -774,7 +829,6 @@ headlines: #AB5955 , #834845 , #74201B*/
 .portfolio-pd {
   width: 110vh;
   margin: 0 auto;
-  display: grid;
   gap: 4rem;
   justify-content: center;
 }
@@ -785,5 +839,7 @@ headlines: #AB5955 , #834845 , #74201B*/
 }
 
 .img-pd {
-  width: 100vh;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
 }

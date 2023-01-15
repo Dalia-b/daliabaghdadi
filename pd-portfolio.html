@@ -37,43 +37,95 @@
       defer
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
-    <script defer src="js/script.js"></script>
+    <script defer src="js/script-portfolio.js"></script>
 
     <title>Dalia Baghdadi &mdash; Portfolio</title>
   </head>
 
   <body>
     <header class="header">
-      <a class="main-nav-link" href="#">
-        
-      </a>
+      
+      <nav class="nav-bar nav-open" id="homepage">
+  
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#">Home</a></li>
+            <li><a class="main-nav-link" href="/index.html#about">About me</a></li>
+            <li>
+              <a class="main-nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li><a class="main-nav-link" href="/index.html#experience">Resume</a></li>
+            <!-- <li><a class="main-nav-link" href="blog.html">Blog</a></li> -->
+            <li><a class="main-nav-link nav-cta" href="#cta">Contact me</a></li>
+          </ul>
+        </nav>
 
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="index.html">About me</a></li>
-          <li>
-            <a class="main-nav-link" href="index.html#experience">Resume</a>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li><a class="main-nav-link" href="blog.html">Blog</a></li>
-          <li><a class="main-nav-link nav-cta" href="#cta">Contact me</a></li>
-        </ul>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
       </nav>
 
-      <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button>
     </header>
 
+    <section class="section-table">
+      <nav class="table">
 
-    <div class="pd-subheading ">Academic Product Portfolio</div>
+        <p class="table-title">Product Portfolio</p>
+        <nav class="content">
 
-    <section class="section-portfolio-pd ">
-     
-      <div class="portfolio-pd">
+          <div class="table-item">
+                <p class="table-number" id="one">01</p>
+              <div class="edu-item">
+                <a href="#pcup" class="edu-title">PCUP</a>
+                <p class="edu-description">We worked with an existing company PCUP to redesign a reusable cup with a NFC to allow for scanning and payment with it.</p>
+              </div>
+          </div>
+
+          <div class="table-item">
+              <p class="table-number">02</p>
+              <div class="edu-item">
+                <a href="#sanisafe" class="edu-title">SaniSafe</a>
+                <p class="edu-description">The project aims to provide a solution to the hygiene problem and unpleasant experience most users have when using public bathrooms.</p>
+              </div>
+          </div>
+      
+        </nav>
+
+      </nav>
+    </section>
+
+   
+
+    <section class="section-portfolio-arch container">
+      
+      <p class="arch-title" id="pcup">PCUP</p>
+      <img class="img-pd" src="img/portfolio/PD/GIF_FINAL.gif" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_03.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_04.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_05.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_06.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_07.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_08.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_09.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_10.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_11.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_12.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_13.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_14.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_15.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_16.png" alt="" />
+      <!-- <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_17.png" alt="" /> -->
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_18.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_19.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_20.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_21.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_22.png" alt="" />
+      <img class="img-pd" src="img/portfolio/PD/Final_Presentation (1)_Page_02.png" alt="" />
+
+      
+      
+      <p class="arch-title" id="sanisafe">SaniSafe</p>
         <img class="img-pd" src="img/portfolio/PD/Artboard-1.png" alt="" />
         <img class="img-pd" src="img/portfolio/PD/Artboard-2.png" alt="" />
         <img class="img-pd" src="img/portfolio/PD/Artboard-3.png" alt="" />
@@ -84,7 +136,7 @@
         <img class="img-pd" src="img/portfolio/PD/Artboard-8.png" alt="" />
         <img class="img-pd" src="img/portfolio/PD/Artboard-9.png" alt="" />
         <img class="img-pd" src="img/portfolio/PD/Artboard-10.png" alt="" />
-      </div>
+
     </section>
 
 
@@ -114,7 +166,7 @@
             <ul class="portfolio-attributes">
               <li class="portfolio-attribute">
                 <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                <span><strong>2 years</strong> experience</span>
+                <span><strong>+2 years</strong> experience</span>
               </li>
               <li class="portfolio-attribute">
                 <ion-icon
@@ -224,7 +276,7 @@
                 <input
                   id="full-name"
                   type="text"
-                  placeholder="John Smith"
+                  placeholder="Full Name"
                   name="full-name"
                   required
                 />
@@ -261,7 +313,7 @@
           <div
             class="cta-img-box"
             role="img"
-            aria-label="Woman enjoying food"
+            aria-label="Image of Dalia"
           ></div>
         </div>
       </div>
@@ -271,28 +323,36 @@
     <footer class="footer">
       <div class="container grid grid--footer">
         <div class="logo-col">
+
+          <div class="social-links">
+            
+            
+            <a class="footer-link" href="https://www.linkedin.com/in/dalia-baghdadi" target=”_blank”>
+              <ion-icon class="social-icon" name="logo-linkedin""></ion-icon>
+            </a>
+           
+          
+            <a class="footer-link" href="https://www.instagram.com/dalia.baghdadii/?igshid=YmMyMTA2M2Y=" target=”_blank”> 
+              <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            </a>
+
+              <a class="footer-link" href="mailto:daliabaghdadi@hotmail.com" target=”_blank”> 
+                <ion-icon class="social-icon" name="mail"></ion-icon>
+                </a>
+            
+
+        </div>
           <div class="footer-name">
 
-            <a href="#" class="footer-logo">
+            <!-- <a href="#" class="footer-logo">
               <img class="footer-logo" alt="logo" src="img/logos/CV-LOGO.svg" />
-            </a>
-            <a class="footer-name" href="index.html">Dalia Baghdadi</a>
+            </a> -->
+            <a class="footer-name" href="index.html">DALIA BAGHDADI</a>
           </div>
 
         
           <p class="copyright"> All rights reserved <span class="year">2027</span>.</p>
-          <div class="social-links">
-            
-            
-              <a class="footer-link" href="https://www.linkedin.com/in/dalia-baghdadi" target=”_blank”>
-                <ion-icon class="social-icon" name="logo-linkedin""></ion-icon>
-            
-             
-            
-              <a class="footer-link" href="https://www.instagram.com/dalia.baghdadii/?igshid=YmMyMTA2M2Y=" target=”_blank”> 
-                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
-            
-          </div>
+         
         </div>
 
 

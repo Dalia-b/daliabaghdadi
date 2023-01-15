@@ -37,36 +37,64 @@
       defer
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
-    <script defer src="js/script.js"></script>
+    <script defer src="js/script-portfolio.js"></script>
 
     <title>Dalia Baghdadi &mdash; Portfolio</title>
   </head>
   <body>
     <header class="header">
-      <a class="main-nav-link" href="#">
-       
-      </a>
-
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="index.html">About me</a></li>
-          <li><a class="main-nav-link" href="index.html#experience">Resume</a></li>
-          <li>
-            <a class="main-nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li><a class="main-nav-link" href="blog.html">Blog</a></li>
-          <li><a class="main-nav-link nav-cta" href="#cta">Contact me</a></li>
-        </ul>
+      
+      <nav class="nav-bar nav-open" id="homepage">
+        
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#">Home</a></li>
+            <li><a class="main-nav-link" href="/index.html#about">About me</a></li>
+            <li>
+              <a class="main-nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li><a class="main-nav-link" href="/index.html#experience">Resume</a></li>
+            <!-- <li><a class="main-nav-link" href="blog.html">Blog</a></li> -->
+            <li><a class="main-nav-link nav-cta" href="#cta">Contact me</a></li>
+          </ul>
+        </nav>
+        
+        
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
       </nav>
 
-      <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button>
     </header>
 
-    <section class="section-portfolio-arch container">
-      <p class="arch-title">Professional Architecture Portfolio</p>
+    <section class="section-table">
+      <nav class="table">
+        <p class="table-title">Architecture Portfolio</p>
+        <nav class="content">
+
+          <div class="table-item">
+                <p class="table-number" id="one">01</p>
+              <div class="edu-item">
+                <a href="#professional" class="edu-title">Professional</a>
+                <p class="edu-description">Selected projects from my experience are presented that cover residential, office and multi-use buildings. </p>
+              </div>
+          </div>
+
+          <div class="table-item">
+              <p class="table-number">02</p>
+              <div class="edu-item">
+                <a href="#academic" class="edu-title">Academic</a>
+                <p class="edu-description">Presented projects are shown in reverse chronological order showing the different phases of site analysis, conceptualization/visualization and development.</p>
+              </div>
+          </div>
+      
+        </nav>
+      </nav>
+    </section>
+
+    <section class="section-portfolio-arch container" id="professional">
+      <p class="arch-title">Work experience</p>
       <img class="arch-img" src="img/portfolio/ARCH/Acad&Prof-Portfolio-2022_Page_16.png" alt="">
       <img class="arch-img" src="img/portfolio/ARCH/Acad&Prof-Portfolio-2022_Page_17.png" alt="">
       <img class="arch-img" src="img/portfolio/ARCH/Acad&Prof-Portfolio-2022_Page_18.png" alt="">
@@ -87,8 +115,8 @@
 
     </section>
 
-    <section class="section-portfolio-arch container">
-      <p class="arch-title">Academic Architecture Portfolio</p>
+    <section class="section-portfolio-arch container" id="academic">
+      <p class="arch-title">Academic experience</p>
       <img class="arch-img" src="img/portfolio/ARCH/Acad&Prof-Portfolio-2022_Page_04.png" alt="">
       <img class="arch-img" src="img/portfolio/ARCH/Acad&Prof-Portfolio-2022_Page_05.png" alt="">
       <img class="arch-img" src="img/portfolio/ARCH/Acad&Prof-Portfolio-2022_Page_06.png" alt="">
@@ -130,7 +158,7 @@
             <ul class="portfolio-attributes">
               <li class="portfolio-attribute">
                 <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                <span><strong>2 years</strong> experience</span>
+                <span><strong>+2 years</strong> experience</span>
               </li>
               <li class="portfolio-attribute">
                 <ion-icon
@@ -240,7 +268,7 @@
                 <input
                   id="full-name"
                   type="text"
-                  placeholder="John Smith"
+                  placeholder="Full Name"
                   name="full-name"
                   required
                 />
@@ -277,7 +305,7 @@
           <div
             class="cta-img-box"
             role="img"
-            aria-label="Woman enjoying food"
+            aria-label="Image of Dalia"
           ></div>
         </div>
       </div>
@@ -286,28 +314,36 @@
     <footer class="footer">
       <div class="container grid grid--footer">
         <div class="logo-col">
+
+          <div class="social-links">
+            
+            
+            <a class="footer-link" href="https://www.linkedin.com/in/dalia-baghdadi" target=”_blank”>
+              <ion-icon class="social-icon" name="logo-linkedin""></ion-icon>
+            </a>
+           
+          
+            <a class="footer-link" href="https://www.instagram.com/dalia.baghdadii/?igshid=YmMyMTA2M2Y=" target=”_blank”> 
+              <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            </a>
+
+              <a class="footer-link" href="mailto:daliabaghdadi@hotmail.com" target=”_blank”> 
+                <ion-icon class="social-icon" name="mail"></ion-icon>
+                </a>
+            
+
+        </div>
           <div class="footer-name">
 
-            <a href="#" class="footer-logo">
+            <!-- <a href="#" class="footer-logo">
               <img class="footer-logo" alt="logo" src="img/logos/CV-LOGO.svg" />
-            </a>
-            <a class="footer-name" href="index.html">Dalia Baghdadi</a>
+            </a> -->
+            <a class="footer-name" href="index.html">DALIA BAGHDADI</a>
           </div>
 
         
           <p class="copyright"> All rights reserved <span class="year">2027</span>.</p>
-          <div class="social-links">
-            
-            
-              <a class="footer-link" href="https://www.linkedin.com/in/dalia-baghdadi" target=”_blank”>
-                <ion-icon class="social-icon" name="logo-linkedin""></ion-icon>
-            
-             
-            
-              <a class="footer-link" href="https://www.instagram.com/dalia.baghdadii/?igshid=YmMyMTA2M2Y=" target=”_blank”> 
-                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
-            
-          </div>
+         
         </div>
 
 

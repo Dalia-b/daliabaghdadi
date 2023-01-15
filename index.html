@@ -61,29 +61,29 @@
   </head>
   <body>
     <header class="header">
-      <!-- <a class="main-nav-link" href="#">
-        <div class="header-logo">
-          <img class="logo" alt="Omnifood logo" src="img/logos/CV-LOGO.svg" />
-          
-        </div>
-      </a> -->
-
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#about">About me</a></li>
-          <li>
-            <a class="main-nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li><a class="main-nav-link" href="#experience">Resume</a></li>
-          <li><a class="main-nav-link" href="blog.html">Blog</a></li>
-          <li><a class="main-nav-link nav-cta" href="#cta">Contact me</a></li>
-        </ul>
+      
+      <nav class="nav-bar nav-open" id="homepage">
+        
+        
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#">Home</a></li>
+            <li><a class="main-nav-link" href="#about">About me</a></li>
+            <li>
+              <a class="main-nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li><a class="main-nav-link" href="#experience">Resume</a></li>
+            <!-- <li><a class="main-nav-link" href="blog.html">Blog</a></li> -->
+            <li><a class="main-nav-link nav-cta" href="#cta">Contact me</a></li>
+          </ul>
+        </nav>
+        
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
       </nav>
 
-      <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button>
     </header>
 
     <main>
@@ -144,7 +144,7 @@
              
               <ul class="portfolio-attributes">
                 <li class="portfolio-attribute">
-                  <ion-icon class="meal-icon"name="briefcase-outline"></ion-icon>                  <span><strong>2 years</strong> experience</span>
+                  <ion-icon class="meal-icon"name="briefcase-outline"></ion-icon>                  <span><strong>+2 years</strong> experience</span>
                 </li>
                 <li class="portfolio-attribute">
                   <ion-icon class="meal-icon" name="school-outline"></ion-icon>
@@ -242,14 +242,14 @@
 
           <!-- STEP 01 -->
           <div class="step-text-box">
-            <p>JUL - </p>
-            <p>PRESENT</p>
+            <p>JUL - OCT</p>
+            <p>2022</p>
           </div>
 
           <div class="exp-item">
             <p class="exp-name">Studio di Architettura Roberto Carlando</p> 
             <p class="exp-title">Architect Intern</p>
-            <p class="exp-description">Working on restoration projects in the design and execution phase. Redesigning exterior and interior of existing spaces.</p>
+            <p class="exp-description">Worked on restoration projects in the design and execution phase. As well as on a competition for sustainable affordable housing using modular units that respond to the needs of different families.</p>
           </div>
 
           <span class="edu-uni-loc">
@@ -413,8 +413,8 @@
           <div class="edu-item">
               <p class="edu-name">Udemy & Online Courses</p>
               <p class="edu-title">Figma, HTML&CSS, UX&UI</p>
-              <p class="edu-description">
-                HTML and CSS online course and practice on developing responsive and UX designed websites. Figma course for wireframing, creating and prototyping App and Web designs. UX and UI design for Web & Apps through user research, ideation, prototyping and iterating.</p>         </div>
+              <p class="edu-description">HTML and CSS online course and practice on developing responsive and UX designed websites. Figma course for wireframing, creating and prototyping App and Web designs. UX and UI design for Web & Apps through user research, ideation, prototyping and iterating.</p>
+          </div>
           <span class="edu-uni-loc">
             <svg
             src="<svg xmlns="http://www.w3.org/2000/svg" class="edu-loc-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -513,7 +513,6 @@
         </div>
       </section>
 
-     
 
       <section class="section-skills" id="skills">
         <div class="container grid grid--2-cols-odd">
@@ -757,7 +756,7 @@
                   <input
                     id="full-name"
                     type="text"
-                    placeholder="John Smith"
+                    placeholder="Full Name"
                     name="full-name"
                     required
                   />
@@ -794,7 +793,7 @@
             <div
               class="cta-img-box"
               role="img"
-              aria-label="Woman enjoying food"
+              aria-label="image of Dalia"
             ></div>
           </div>
         </div>
@@ -804,28 +803,36 @@
     <footer class="footer">
       <div class="container grid grid--footer">
         <div class="logo-col">
+
+          <div class="social-links">
+            
+            
+            <a class="footer-link" href="https://www.linkedin.com/in/dalia-baghdadi" target=”_blank”>
+              <ion-icon class="social-icon" name="logo-linkedin""></ion-icon>
+            </a>
+           
+          
+            <a class="footer-link" href="https://www.instagram.com/dalia.baghdadii/?igshid=YmMyMTA2M2Y=" target=”_blank”> 
+              <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            </a>
+
+              <a class="footer-link" href="mailto:daliabaghdadi@hotmail.com" target=”_blank”> 
+                <ion-icon class="social-icon" name="mail"></ion-icon>
+                </a>
+            
+
+        </div>
           <div class="footer-name">
 
-            <a href="#" class="footer-logo">
+            <!-- <a href="#" class="footer-logo">
               <img class="footer-logo" alt="logo" src="img/logos/CV-LOGO.svg" />
-            </a>
-            <a class="footer-name" href="index.html">Dalia Baghdadi</a>
+            </a> -->
+            <a class="footer-name" href="index.html">DALIA BAGHDADI</a>
           </div>
 
         
           <p class="copyright"> All rights reserved <span class="year">2027</span>.</p>
-          <div class="social-links">
-            
-            
-              <a class="footer-link" href="https://www.linkedin.com/in/dalia-baghdadi" target=”_blank”>
-                <ion-icon class="social-icon" name="logo-linkedin""></ion-icon>
-            
-             
-            
-              <a class="footer-link" href="https://www.instagram.com/dalia.baghdadii/?igshid=YmMyMTA2M2Y=" target=”_blank”> 
-                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
-            
-          </div>
+         
         </div>
 
 
