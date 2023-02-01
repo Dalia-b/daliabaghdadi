@@ -21,10 +21,10 @@ yearEl.textContent = currentYear;
 // Make mobile navigation work
 
 const btnNavEl = document.querySelector(".btn-mobile-nav");
-const headerEl = document.querySelector(".nav-bar");
+const headerEl = document.querySelector(".header");
 
 btnNavEl.addEventListener("click", function () {
-  headerEl.classList.toggle("nav-trial");
+  headerEl.classList.toggle("nav-open");
 });
 
 ///////////////////////////////////////////////////////////
@@ -52,7 +52,7 @@ allLinks.forEach(function (link) {
 
     // Close mobile naviagtion
     if (link.classList.contains("main-nav-link"))
-      headerEl.classList.toggle("nav-trial");
+      headerEl.classList.toggle("nav-open");
   });
 });
 

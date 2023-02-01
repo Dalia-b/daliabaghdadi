@@ -591,6 +591,7 @@ headlines: #AB5955 , #834845 , #74201B*/
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 10rem;
 }
 
 .img-ux {
