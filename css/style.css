@@ -587,6 +587,16 @@ headlines: #AB5955 , #834845 , #74201B*/
   text-align: center;
 }
 
+.container-ux {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-ux {
+  max-width: 80vw;
+}
+
 /**************************/
 /* CTA SECTION */
 /**************************/
