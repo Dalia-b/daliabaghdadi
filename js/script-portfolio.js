@@ -59,7 +59,7 @@ allLinks.forEach(function (link) {
 ///////////////////////////////////////////////////////////
 // Sticky navigation
 
-const sectionHeroEl = document.querySelector(".section-table");
+const sectionTableEl = document.querySelector(".section-table");
 
 const obs = new IntersectionObserver(
   function (entries) {
@@ -81,7 +81,7 @@ const obs = new IntersectionObserver(
     rootMargin: "-80px",
   }
 );
-obs.observe(sectionHeroEl);
+obs.observe(sectionTableEl);
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions

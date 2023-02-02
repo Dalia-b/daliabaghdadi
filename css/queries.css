@@ -688,6 +688,10 @@
     width: 85vw;
     height: auto;
   }
+
+  .img-ux {
+    max-width: 110vw;
+  }
 }
 
 /* 
