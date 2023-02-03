@@ -194,7 +194,7 @@
   .exp-items {
     display: grid;
     grid-template-columns: 1fr 0.4fr 4fr 1.2fr;
-    row-gap: 4rem;
+    row-gap: 3rem;
     margin-bottom: 5rem;
     margin-top: 8rem;
   }
@@ -202,7 +202,7 @@
   .edu-items {
     display: grid;
     grid-template-columns: 1fr 0.4fr 4fr 1.2fr;
-    row-gap: 5rem;
+    row-gap: 3rem;
     margin-bottom: 5rem;
     margin-top: 8rem;
   }
@@ -276,7 +276,7 @@
   .exp-items {
     display: grid;
     grid-template-columns: 1fr 0.3fr 4fr 1.2fr;
-    row-gap: 4rem;
+    row-gap: 3rem;
     margin-bottom: 5rem;
     margin-top: 8rem;
   }
@@ -284,7 +284,7 @@
   .edu-items {
     display: grid;
     grid-template-columns: 1fr 0.3fr 4fr 1.2fr;
-    row-gap: 4rem;
+    row-gap: 3rem;
     margin-bottom: 5rem;
     margin-top: 8rem;
   }
@@ -348,7 +348,7 @@
   .exp-items {
     display: grid;
     grid-template-columns: 1fr 0.3fr 4fr 1.2fr;
-    row-gap: 4rem;
+    row-gap: 3rem;
     margin-bottom: 5rem;
     margin-top: 8rem;
   }
@@ -356,7 +356,7 @@
   .edu-items {
     display: grid;
     grid-template-columns: 1fr 0.3fr 4fr 1.2fr;
-    row-gap: 4rem;
+    row-gap: 3rem;
     margin-bottom: 5rem;
     margin-top: 8rem;
   }
@@ -401,7 +401,7 @@
   .exp-items {
     display: grid;
     grid-template-columns: 1fr 0.3fr 4fr 1.2fr;
-    row-gap: 4rem;
+    row-gap: 3rem;
     margin-bottom: 5rem;
     margin-top: 8rem;
   }
@@ -409,7 +409,7 @@
   .edu-items {
     display: grid;
     grid-template-columns: 1fr 0.3fr 4fr 1.2fr;
-    row-gap: 4rem;
+    row-gap: 3rem;
     margin-bottom: 5rem;
     margin-top: 8rem;
   }
