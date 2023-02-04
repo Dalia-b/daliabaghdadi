@@ -886,6 +886,19 @@ headlines: #AB5955 , #834845 , #74201B*/
   text-decoration: none;
 }
 
+.icon-top-arrow {
+  color: #fdf2e9;
+  font-weight: 500;
+  font-size: 9rem;
+  width: 4.5rem;
+  height: 4.1rem;
+  padding: 0.2rem;
+}
+
+.icon-top-arrow:hover {
+  color: #2f2f2f;
+}
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -893,14 +906,10 @@ headlines: #AB5955 , #834845 , #74201B*/
   right: 5.5rem; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
-  outline: none; /* Remove outline */
   background-color: #fbc464; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 1.2rem 1.8rem; /* Some padding */
-  border-radius: 8px; /* Rounded corners */
-  font-size: 2rem; /* Increase font size */
-  font-weight: 600;
+  border-radius: 200px; /* Rounded corners */
 }
 
 #myBtn:hover {
