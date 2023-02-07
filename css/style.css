@@ -769,18 +769,19 @@ headlines: #AB5955 , #834845 , #74201B*/
   color: #fdf2e9;
   font-weight: 500;
   margin-bottom: 5rem;
+  text-shadow: 0.15rem 0.15rem 0.15rem rgba(253, 241, 232, 0.2);
 }
 
 .table-title {
   font-size: 3rem;
-  color: #fdf2e9;
+  color: #facb7c;
   font-weight: 500;
   display: block;
   padding-bottom: 0.5rem;
 }
 
 .table-title:hover {
-  color: #ffcb74;
+  color: #fab846;
 }
 
 .table-item {
@@ -794,7 +795,7 @@ headlines: #AB5955 , #834845 , #74201B*/
 .table-number {
   font-size: 12rem;
   color: #fdf2e9;
-  text-shadow: 0.2rem 0.2rem 0.3rem rgba(253, 241, 232, 0.3);
+  text-shadow: 0.2rem 0.25rem 0.25rem rgba(253, 241, 232, 0.2);
   font-weight: 900;
 }
 
@@ -864,17 +865,28 @@ headlines: #AB5955 , #834845 , #74201B*/
   margin-top: 8rem;
 }
 
-.btn-ux-tigre {
-  background-color: #ffcb74;
-  color: #fff;
+.btn-prototype {
   display: flex;
+  justify-content: center;
+}
 
+.btn-ux {
+  background-color: #ff6b35;
+  color: #fff;
   margin: 2rem auto;
   padding: 1.2rem 1.8rem;
   font-size: 2.4rem;
 }
 
-.btn-ux-tigre:hover {
+.tigre {
+  background-color: #ff6b35;
+}
+
+.pulse {
+  background-color: #006d84;
+}
+
+.btn-ux:hover {
   background-color: #fff;
   color: #555;
 }
@@ -883,7 +895,6 @@ headlines: #AB5955 , #834845 , #74201B*/
 .btn-ux-tigre:visited {
   background-color: #ffcb74;
   color: #fff;
-  text-decoration: none;
 }
 
 .icon-top-arrow {

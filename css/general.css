@@ -180,7 +180,7 @@ a {
 .btn:link,
 .btn:visited {
   display: inline-block;
-
+  text-align: center;
   text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
